@@ -1,0 +1,152 @@
+body {
+    margin: 0px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+body * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*----------------------- NAV ------------------------------*/
+.iguana-header {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: 0.5rem auto;
+}
+
+h1 {
+    padding: 0.5rem;
+    font-weight: 500;
+    font-size: 3em;
+    
+}
+/*----------------------- IMAGEN ------------------------------*/
+
+.bg-iguana{
+padding-top: 4rem;
+height: 800px;
+}
+
+.bg-iguana, .bg-iguana img{
+    width: 100%;
+}
+
+.bg-iguana img{
+    width: 100%;
+}
+
+/*----------------------- Description ------------------------------*/
+
+.desc-section {
+    display: inline-block;
+    background-color: #000000;
+    text-align: center;
+    padding:2rem 0;
+    width: 100%;
+}
+
+.information {
+    display: inline-block;
+    width: 30rem;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    padding-right: 4rem;
+}
+
+.iguana-pana {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.iguana-pana img {
+    width: 25rem;
+    height: 15rem;
+    object-fit: fill;
+}
+
+/*----------------------- Characteristics ------------------------------*/
+
+h2{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.icons-section {
+    background-color: #1E1A13;
+    text-align: center;
+    padding-top: 4.5rem;
+}
+
+.icons-section aside {
+    display: inline-block;
+    margin: 4rem 6rem;
+    transition: 700ms ease;
+}
+
+
+.cambia:hover {
+    color: #b5e48c;
+}
+
+.icons-section i{
+    padding-bottom: 1rem;
+}
+
+/*----------------------- PHOTOS ------------------------------*/
+
+.photos {
+    background-color: #000000;
+    text-align: center;
+}
+
+.photos div{
+    padding: 4.5rem 0;
+}
+
+.photos-iguanas{
+    display: inline-block;
+    width: 20rem;
+    height: 13rem;
+    object-fit: fill;
+    padding: 0 1rem;
+    transition: 200ms ease;
+}
+
+.photos-iguanas:hover{
+transform: scale(1.2);
+}
+
+/*----------------------- FOOTER ------------------------------*/
+
+.footer {
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.footer p{
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 500ms ease;
+}
+
+.link:hover{
+    font-size: 150%;
+    color: #b5e48c;
+}
